@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#ff6f91">
+    <meta name="description" content="A special birthday celebration for Yogasree">
+
+    <title>Happy Birthday Yogasree 💗</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+
+        <div class="stars">
+            <span>✦</span>
+            <span>✧</span>
+            <span>✦</span>
+            <span>✧</span>
+            <span>✦</span>
+            <span>✧</span>
+        </div>
+
+        <div class="floating-heart heart-1">♥️</div>
+        <div class="floating-heart heart-2">♥️</div>
+        <div class="floating-heart heart-3">♥️</div>
+        <div class="floating-heart heart-4">♥️</div>
+
+    </div>
+
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop preload="metadata">
+        <source src="./images/kaise.mpeg" type="audio/mpeg">
+    </audio>
+
+    <button class="music-control" id="musicButton">
+        <span class="music-icon">
+            <i class="fa-solid fa-music"></i>
+        </span>
+
+        <span id="musicText">Play Music</span>
+    </button>
+
+    <!-- WELCOME / INTRO SCREEN -->
+<div class="intro-screen" id="introScreen">
+
+    <div class="intro-glow"></div>
+
+    <div class="intro-content">
+
+        <div class="intro-sparkles">✦　♡　✦</div>
+
+        <p class="intro-small">A LITTLE SURPRISE FOR</p>
+
+        <h1>
+            Yogasree
+            <span>💗</span>
+        </h1>
+
+        <p class="intro-message">
+            Someone special made something<br>
+            just for you...
+        </p>
+
+        <button class="enter-btn" id="enterButton">
+            <span>Tap to Enter</span>
+            <i class="fa-solid fa-heart"></i>
+        </button>
+
+        <p class="intro-hint">
+            🎵 Turn up your volume
+        </p>
+
+    </div>
+
+</div>
+
+
+    <!-- MAIN -->
+    <main class="page">
+
+        <!-- TOP LABEL -->
+        <div class="top-label">
+            <span class="label-line"></span>
+            <span>A LITTLE CELEBRATION FOR</span>
+            <span class="label-line"></span>
+        </div>
+
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <!-- LEFT -->
+            <div class="hero-content">
+
+                <div class="small-badge">
+                    <i class="fa-solid fa-sparkles"></i>
+                    Someone Special
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+
+                <h1>
+                    <span class="hello">Happy</span>
+                    <span class="birthday-text">Birthday</span>
+                </h1>
+
+                <div class="name-title">
+                    Yogasree
+                    <span class="name-heart">♥️</span>
+                </div>
+
+                <p class="intro">
+                    Today isn't just another day...
+                    it's the day someone very special
+                    came into this world.
+                </p>
+
+                <p class="quote">
+                    “Some people enter your life quietly,
+                    and somehow become family.”
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn" id="openLetter">
+                        <span class="btn-icon">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                        </span>
+
+                        Open Your Letter
+
+                        <span class="arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </button>
+
+                    <button class="secondary-btn" id="scrollPhoto">
+                        <i class="fa-solid fa-heart"></i>
+                        A Little Memory
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT PHOTO -->
+            <div class="photo-section" id="photoSection">
+
+                <div class="photo-decoration decor-1">✦</div>
+                <div class="photo-decoration decor-2">♥️</div>
+                <div class="photo-decoration decor-3">✧</div>
+
+                <div class="photo-card">
+
+                    <div class="photo-glow"></div>
+
+                    <div class="photo-ring ring-1"></div>
+                    <div class="photo-ring ring-2"></div>
+
+                    <div class="photo">
+
+                        <img
+                            src="./images/unnamed.jpeg"
+                            alt="Yogasree">
+
+                    </div>
+
+                    <div class="photo-caption">
+
+                        <span class="caption-heart">♥️</span>
+
+                        <span>Dear Yogasree</span>
+
+                        <span class="caption-heart">♥️</span>
+
+                    </div>
+
+                </div>
+
+                <div class="photo-note">
+                    made with love
+                    <span>♡</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DATE CARD -->
+        <section class="date-card">
+
+            <div class="date-icon">
+                <i class="fa-solid fa-cake-candles"></i>
+            </div>
+
+            <div>
+                <span class="date-label">YOUR SPECIAL DAY</span>
+                <strong>02 October</strong>
+            </div>
+
+            <div class="date-heart">
+                ♥️
+            </div>
+
+        </section>
+
+
+        <!-- MEMORY SECTION -->
+        <section class="memory-section">
+
+            <div class="section-heading">
+                <span>ONE LITTLE THING</span>
+                <h2>Just for you <span>♡</span></h2>
+            </div>
+
+            <div class="memory-grid">
+
+                <div class="memory-box">
+
+                    <div class="memory-icon pink">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <h3>Stay Happy</h3>
+
+                    <p>
+                        No matter what happens,
+                        I hope you always find a reason
+                        to smile.
+                    </p>
+
+                </div>
+
+
+                <div class="memory-box featured">
+
+                    <div class="memory-icon white">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>Keep Dreaming</h3>
+
+                    <p>
+                        May every little dream in your heart
+                        slowly become a beautiful reality.
+                    </p>
+
+                </div>
+
+
+                <div class="memory-box">
+
+                    <div class="memory-icon pink">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+
+                    <h3>Be Yourself</h3>
+
+                    <p>
+                        Never forget how special you are
+                        exactly the way you are.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL MESSAGE -->
+        <section class="final-section">
+
+            <div class="final-card">
+
+                <span class="final-top">WITH LOTS OF LOVE</span>
+
+                <h2>
+                    Happy Birthday,
+                    <span>Yogi 💗</span>
+                </h2>
+
+                <p>
+                    May this new chapter of your life bring
+                    you peace, happiness, beautiful memories
+                    and everything your heart quietly wishes for.
+                </p>
+
+                <div class="final-hearts">
+                    ♥️　♥️　♥️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            Made especially for Yogasree <span>♥️</span>
+        </footer>
+
+    </main>
+
+
+    <!-- LETTER MODAL -->
+    <div class="letter-overlay" id="letterOverlay">
+
+        <button class="close-letter" id="closeLetter">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <div class="letter-wrapper">
+
+            <!-- Envelope front -->
+            <div class="envelope">
+
+                <div class="envelope-top"></div>
+
+                <div class="envelope-body">
+
+                    <div class="letter-seal">
+                        ♥️
+                    </div>
+
+                    <p>For</p>
+
+                    <h2>Yogasree</h2>
+
+                    <span>
+                        A little birthday message
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Actual letter -->
+            <article class="letter-content">
+
+                <div class="letter-header">
+
+                    <span class="letter-small">
+                        TO SOMEONE SPECIAL
+                    </span>
+
+                    <h2>
+                        Happy Birthday
+                        <span>Yogi 💗</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="letter-body">
+
+                    <p class="hello-letter">Hey Yogi 💗,</p>
+
+                    <p>Happy Birthday! 🎂</p>
+
+                    <p>Looking back, it’s amazing how someone who started out as just another person in my life gradually became one of the most important parts of it.</p>
+
+                    <p>You carry a heart that is far softer than the world deserves, and I see how quietly you fight through hard days. I just want you to know—you don't always have to be strong on your own.</p>
+
+                    <p><strong>You will always have a safe space with me.</strong></p>
+
+                    <p>Whenever life gets heavy, or when you just need someone who truly listens without judging, I’m always here for you. No conditions, no end date.</p>
+
+                    <p>I hope this year brings you genuine peace, endless reasons to laugh, and all the success your heart quietly wishes for late at night.</p>
+
+                    <p class="last-line">Never doubt how valuable you are. Keep smiling, okay? 😌</p>
+
+                    <div class="signature">
+                        With endless care,<br>
+                        <strong>Your Best Friend ♥️</strong>
+                    </div>
+
+                <div class="letter-footer">
+                    <span>02 • 10</span>
+                    <span>♡</span>
+                    <span>2026</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+    <!-- Confetti container -->
+    <div id="confetti"></div>
+
+
+    <script src="scriptt.js"></script>
+
+</body>
+
+</html>
